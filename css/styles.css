@@ -1,0 +1,277 @@
+/* ======================================================
+   PWA Learn
+   Hoja de estilos principal
+   ====================================================== */
+
+/* ======================================================
+   VARIABLES
+   ====================================================== */
+
+:root {
+
+    --primary-color: #1565C0;
+    --primary-hover: #0D47A1;
+
+    --danger-color: #D32F2F;
+
+    --background-color: #F4F6F9;
+
+    --card-color: #FFFFFF;
+
+    --text-color: #333333;
+
+    --border-color: #D9D9D9;
+
+    --shadow:
+
+        0 4px 10px rgba(0, 0, 0, .10);
+
+    --border-radius: 10px;
+
+}
+
+/* ======================================================
+   CONFIGURACIÓN GENERAL
+   ====================================================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: var(--background-color);
+
+    color: var(--text-color);
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+/* ======================================================
+   HEADER
+   ====================================================== */
+
+header {
+
+    background: var(--primary-color);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+
+}
+
+header h1 {
+
+    margin-bottom: 10px;
+
+}
+
+header p {
+
+    opacity: .95;
+
+}
+
+/* ======================================================
+   MAIN
+   ====================================================== */
+
+main {
+
+    width: 90%;
+
+    max-width: 700px;
+
+    margin: 30px auto;
+
+    background: var(--card-color);
+
+    padding: 25px;
+
+    border-radius: var(--border-radius);
+
+    box-shadow: var(--shadow);
+
+}
+
+/* ======================================================
+   SECCIONES
+   ====================================================== */
+
+section {
+
+    margin-bottom: 30px;
+
+}
+
+section h2 {
+
+    margin-bottom: 15px;
+
+    color: var(--primary-color);
+
+}
+
+/* ======================================================
+   FORMULARIO
+   ====================================================== */
+
+label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+
+}
+
+input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid var(--border-color);
+
+    border-radius: var(--border-radius);
+
+    font-size: 16px;
+
+    margin-bottom: 15px;
+
+}
+
+input:focus {
+
+    outline: none;
+
+    border-color: var(--primary-color);
+
+}
+
+/* ======================================================
+   BOTÓN
+   ====================================================== */
+
+button {
+
+    background: var(--primary-color);
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: var(--border-radius);
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+button:hover {
+
+    background: var(--primary-hover);
+
+}
+
+/* ======================================================
+   LISTA
+   ====================================================== */
+
+ul {
+
+    list-style: none;
+
+}
+
+li {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid var(--border-color);
+
+    border-radius: var(--border-radius);
+
+}
+
+/* ======================================================
+   CONTADOR
+   ====================================================== */
+
+.task-counter {
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+}
+
+/* ======================================================
+   FOOTER
+   ====================================================== */
+
+footer {
+
+    margin-top: auto;
+
+    background: var(--primary-color);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+/* ======================================================
+   RESPONSIVE
+   ====================================================== */
+
+@media (max-width: 600px) {
+
+    main {
+
+        width: 95%;
+
+        padding: 20px;
+
+    }
+
+    header {
+
+        padding: 20px;
+
+    }
+
+}
