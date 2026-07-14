@@ -31,30 +31,5 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ],
-    "screenshots": [
-        {
-            "src": "screenshots/home.png",
-            "sizes": "1280x720",
-            "type": "image/png",
-            "form_factor": "wide",
-            "label": "Pantalla principal de PWA Learn"
-        },
-
-        {
-            "src": "screenshots/tasks.png",
-            "sizes": "1280x720",
-            "type": "image/png",
-            "form_factor": "wide",
-            "label": "Gestión de tareas"
-        },
-
-        {
-            "src": "screenshots/mobile.png",
-            "sizes": "720x1280",
-            "type": "image/png",
-            "form_factor": "narrow",
-            "label": "Vista móvil"
-        }
     ]
 }
