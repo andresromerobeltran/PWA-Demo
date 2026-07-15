@@ -1,8 +1,8 @@
 {
     "id": "/",
-    "name": "PWA Learn",
-    "short_name": "PWA Learn",
-    "description": "Aplicación demostrativa que pretende conceptualizar acerca del desarrollo de Progressive Web Apps. Versión 1.1",
+    "name": "PWA Demo",
+    "short_name": "PWA Demo",
+    "description": "Aplicación desarrollada como parte de la conceptualización acerca de la conversión de una aplicación web en una Progressive Web App (PWA). Versión 1.2",
     "lang": "es-CO",
     "dir": "ltr",
     "categories": [
